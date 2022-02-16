@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "761390519773",
+    "project_id": "shieldbook-e7a0a",
+    "storage_bucket": "shieldbook-e7a0a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:761390519773:android:0d90f117c73fd3de2e9234",
+        "android_client_info": {
+          "package_name": "com.example.shieldbook"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "761390519773-60n1pg821j0quqj7d3rmaqa2eu2de7uc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCS5qfI0TRMKydo7OAnGm7XIN0I3sOsrdY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "761390519773-60n1pg821j0quqj7d3rmaqa2eu2de7uc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

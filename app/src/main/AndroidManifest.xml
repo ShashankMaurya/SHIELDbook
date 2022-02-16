@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.shieldbook">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/shield"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/shield"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SHIELDbook">
+        <activity android:name=".forgotPass_activity"
+            android:parentActivityName=".login_activity"/>
+        <activity
+            android:name=".login_activity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".registration_activity"
+            android:parentActivityName=".login_activity" />
+        <activity
+            android:name=".MainActivity"
+            android:parentActivityName=".login_activity">
+
+            <!-- android:exported="true"> -->
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+    </application>
+
+</manifest>
